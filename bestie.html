@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friendship day scroll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3e8;
+        }
+        .scroll-container {
+            position: relative;
+            max-width: 800px;
+            margin: 4rem auto;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            background-color: #F2E0C4;
+            padding: 4rem;
+        }
+        .scroll-content {
+            font-family: 'serif';
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            color: #3f3e3e;
+            text-align: center;
+            white-space: pre-wrap;
+            min-height: 200px;
+        }
+        .scroll-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #4b2a0c;
+            text-align: center;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        /* Custom scroll visual */
+        .scroll-visual {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            /* Removed the background image */
+            border: 2px solid #a88d6c;
+            border-radius: 1rem;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-[#f7f3e8] p-8 md:p-16">
+    <div class="scroll-container">
+        <div class="scroll-visual"></div>
+        <div class="relative z-10 p-8">
+            <h1 class="scroll-title">Happy Friendship Day Bestie :)</h1>
+            <div class="scroll-content" contenteditable="true">
+Even though we haven't met,
+You're my closest friend, my confidante.
+We built a bond on words and trust,
+A connection that feels so real, so grand.
+
+You've listened to my rants and fears,
+And cheered me on through all my tears.
+You've been a rock when I've needed one,
+A true friend since our journey's begun.
+
+Our friendship is a testament,
+That distance can't break what's meant.
+So happy Friendship Day to you, my dear,
+The bestie I hold so very near.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
